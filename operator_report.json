@@ -1,0 +1,245 @@
+{
+    "alert_count": 176,
+    "alerts": [
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=6 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T03:54:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=9 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T03:55:02Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=9 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:04:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=6 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:05:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=8 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:06:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=7 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:16:02Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=6 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:17:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=9 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:27:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=6 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:28:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=9 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:38:02Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=6 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:39:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=9 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:40:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=9 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:49:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=6 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:50:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=7 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T04:51:02Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=8 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T05:01:02Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=6 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T05:02:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=9 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T05:12:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=6 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T05:13:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=9 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-19T05:14:01Z"
+        }
+    ],
+    "all_benchmarks_pass": false,
+    "benchmarks": {
+        "median_peers_gt_15": {
+            "pass": true,
+            "rule": "median peers > 15",
+            "value": 21
+        },
+        "no_disconnect_burst_lag": {
+            "pass": true,
+            "rule": "no disconnect burst (>20) correlated with ledger_age > 4s",
+            "value": 0
+        },
+        "p5_peers_gt_10": {
+            "pass": true,
+            "rule": "5th percentile peers > 10",
+            "value": 20
+        },
+        "p95_lag_le_4": {
+            "pass": true,
+            "rule": "p95 validated_ledger.age <= 4s",
+            "value": 3
+        },
+        "zero_collection_gaps": {
+            "pass": true,
+            "rule": "zero missed report generations (no gaps > 3min in 60s samples)",
+            "value": 0
+        },
+        "zero_full_exits": {
+            "pass": false,
+            "rule": "zero exits from server_state=full",
+            "value": 1
+        },
+        "zero_restarts": {
+            "pass": true,
+            "rule": "zero unexpected restarts in 7d",
+            "value": 0
+        }
+    },
+    "collection_gaps": [],
+    "collection_rate_pct": 100,
+    "disconnect_burst_events": [],
+    "expected_samples": 10074,
+    "full_exits": 1,
+    "full_state_pct": 99.5236,
+    "generated_at": "2026-03-21T11:05:01Z",
+    "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
+    "image_pinned": true,
+    "ledger_lag": {
+        "max": 6,
+        "p50": 2,
+        "p95": 3,
+        "p99": 4
+    },
+    "missed_validations_30d": 18,
+    "non_full_samples": [
+        {
+            "state": "disconnected",
+            "timestamp": "2026-03-18T22:02:01Z"
+        },
+        {
+            "state": "syncing",
+            "timestamp": "2026-03-18T22:03:01Z"
+        },
+        {
+            "state": "syncing",
+            "timestamp": "2026-03-18T22:04:01Z"
+        },
+        {
+            "state": "syncing",
+            "timestamp": "2026-03-18T22:05:01Z"
+        },
+        {
+            "state": "disconnected",
+            "timestamp": "2026-03-18T22:06:01Z"
+        },
+        {
+            "state": "connected",
+            "timestamp": "2026-03-18T22:07:01Z"
+        },
+        {
+            "state": "syncing",
+            "timestamp": "2026-03-18T22:08:01Z"
+        },
+        {
+            "state": "syncing",
+            "timestamp": "2026-03-18T22:09:01Z"
+        },
+        {
+            "state": "syncing",
+            "timestamp": "2026-03-18T22:10:01Z"
+        },
+        {
+            "state": "disconnected",
+            "timestamp": "2026-03-18T22:11:01Z"
+        }
+    ],
+    "peers": {
+        "max": 21,
+        "median": 21,
+        "min": 0,
+        "p5": 20
+    },
+    "period_end": "2026-03-21T11:04:01Z",
+    "period_hours": 167.9,
+    "period_start": "2026-03-14T11:06:01Z",
+    "raw_csv_attestation": {
+        "path": "/opt/postfiatd/metrics/validator_metrics.csv",
+        "sha256": "f0c430cfd9c0e544bb3fd09356f7ace68447bf38db5b46fe096f3b3cfb0e2d0a",
+        "size_bytes": 1036844
+    },
+    "restart_count": 0,
+    "samples": 10076,
+    "server_states": {
+        "connected": 5,
+        "disconnected": 11,
+        "full": 10028,
+        "syncing": 32
+    },
+    "total_validations_30d": 703252,
+    "version": "3.0.0"
+}
