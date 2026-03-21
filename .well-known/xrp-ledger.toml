@@ -1,0 +1,7 @@
+# Post Fiat Testnet Validator
+# Operator: sendoeth
+# Network: Post Fiat Testnet (network_id: 2025)
+
+[[VALIDATORS]]
+public_key = "nHBcLEB4S6moQGrhMjJo1jbp58WL5psHY9EMDWNAtdqykUYiA1rF"
+network = "testnet"
