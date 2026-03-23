@@ -181,8 +181,8 @@
     "disconnect_burst_events": [],
     "expected_samples": 10032,
     "full_exits": 2,
-    "full_state_pct": 99.4918,
-    "generated_at": "2026-03-23T12:05:01Z",
+    "full_state_pct": 99.4917,
+    "generated_at": "2026-03-23T13:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -240,22 +240,22 @@
         "min": 0,
         "p5": 10
     },
-    "period_end": "2026-03-23T12:04:01Z",
+    "period_end": "2026-03-23T13:04:01Z",
     "period_hours": 167.2,
-    "period_start": "2026-03-16T12:05:02Z",
+    "period_start": "2026-03-16T13:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "437dff7ee464cbd70d2484a8b1e4a826f8ed3437a56c85214a46c823a4eb81aa",
-        "size_bytes": 1038026
+        "sha256": "8bf70ee2690bc963cfc09297280c32496237c53e3c217ba0eb9a3bce81b5b93a",
+        "size_bytes": 1038146
     },
     "restart_count": 0,
-    "samples": 10035,
+    "samples": 10034,
     "server_states": {
         "connected": 5,
         "disconnected": 12,
-        "full": 9984,
+        "full": 9983,
         "syncing": 34
     },
-    "total_validations_30d": 703201,
+    "total_validations_30d": 703202,
     "version": "3.0.0"
 }
