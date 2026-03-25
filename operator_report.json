@@ -1,5 +1,5 @@
 {
-    "alert_count": 473,
+    "alert_count": 468,
     "alerts": [
         {
             "category": "LOW_PEERS",
@@ -179,10 +179,10 @@
     ],
     "collection_rate_pct": 100,
     "disconnect_burst_events": [],
-    "expected_samples": 10032,
+    "expected_samples": 10038,
     "full_exits": 2,
-    "full_state_pct": 99.4917,
-    "generated_at": "2026-03-25T21:05:01Z",
+    "full_state_pct": 99.5317,
+    "generated_at": "2026-03-25T22:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -193,22 +193,6 @@
     },
     "missed_validations_30d": 1143,
     "non_full_samples": [
-        {
-            "state": "disconnected",
-            "timestamp": "2026-03-18T22:02:01Z"
-        },
-        {
-            "state": "syncing",
-            "timestamp": "2026-03-18T22:03:01Z"
-        },
-        {
-            "state": "syncing",
-            "timestamp": "2026-03-18T22:04:01Z"
-        },
-        {
-            "state": "syncing",
-            "timestamp": "2026-03-18T22:05:01Z"
-        },
         {
             "state": "disconnected",
             "timestamp": "2026-03-18T22:06:01Z"
@@ -232,6 +216,22 @@
         {
             "state": "disconnected",
             "timestamp": "2026-03-18T22:11:01Z"
+        },
+        {
+            "state": "connected",
+            "timestamp": "2026-03-18T22:12:01Z"
+        },
+        {
+            "state": "syncing",
+            "timestamp": "2026-03-18T22:13:01Z"
+        },
+        {
+            "state": "syncing",
+            "timestamp": "2026-03-18T22:14:01Z"
+        },
+        {
+            "state": "syncing",
+            "timestamp": "2026-03-18T22:15:01Z"
         }
     ],
     "peers": {
@@ -240,22 +240,22 @@
         "min": 0,
         "p5": 10
     },
-    "period_end": "2026-03-25T21:04:01Z",
-    "period_hours": 167.2,
-    "period_start": "2026-03-18T21:06:02Z",
+    "period_end": "2026-03-25T22:04:01Z",
+    "period_hours": 167.3,
+    "period_start": "2026-03-18T22:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "0c807b4eb6316e80c2abe29d9c93ce8141b638e0295f817ac437059cef828f81",
-        "size_bytes": 1044248
+        "sha256": "5ebd4e0c5d8bc6eddc654c4f8aaa8e293f81824ddd6bfe5f0c2be8fce54a9163",
+        "size_bytes": 1044368
     },
     "restart_count": 0,
-    "samples": 10034,
+    "samples": 10036,
     "server_states": {
         "connected": 5,
-        "disconnected": 12,
-        "full": 9983,
-        "syncing": 34
+        "disconnected": 11,
+        "full": 9989,
+        "syncing": 31
     },
-    "total_validations_30d": 699307,
+    "total_validations_30d": 699303,
     "version": "3.0.0"
 }
