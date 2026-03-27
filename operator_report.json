@@ -1,54 +1,6 @@
 {
-    "alert_count": 299,
+    "alert_count": 307,
     "alerts": [
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=9 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-03-21T16:33:01Z"
-        },
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=9 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-03-21T16:34:01Z"
-        },
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=9 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-03-21T16:35:01Z"
-        },
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=9 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-03-21T16:36:01Z"
-        },
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=9 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-03-21T16:37:01Z"
-        },
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=7 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-03-21T16:38:01Z"
-        },
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-03-21T16:39:02Z"
-        },
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=8 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-03-21T16:40:01Z"
-        },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
@@ -120,6 +72,54 @@
             "message": "local=1.0.0 network=3.0.0",
             "severity": "WARNING",
             "timestamp": "2026-03-27T14:04:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=6 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-27T14:05:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=8 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-27T14:06:02Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=8 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-27T14:07:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=8 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-27T14:08:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=8 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-27T14:09:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=8 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-27T14:10:02Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=9 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-27T14:11:01Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=9 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-03-27T14:12:01Z"
         }
     ],
     "all_benchmarks_pass": false,
@@ -137,7 +137,7 @@
         "p5_peers_gt_10": {
             "pass": true,
             "rule": "5th percentile peers > 10",
-            "value": 21
+            "value": 18
         },
         "p95_lag_le_4": {
             "pass": true,
@@ -182,7 +182,7 @@
     "expected_samples": 10038,
     "full_exits": 2,
     "full_state_pct": 99.9701,
-    "generated_at": "2026-03-27T14:05:01Z",
+    "generated_at": "2026-03-27T15:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -191,7 +191,7 @@
         "p95": 3,
         "p99": 4
     },
-    "missed_validations_30d": 1144,
+    "missed_validations_30d": 1156,
     "non_full_samples": [
         {
             "state": "disconnected",
@@ -210,15 +210,15 @@
         "max": 21,
         "median": 21,
         "min": 0,
-        "p5": 21
+        "p5": 18
     },
-    "period_end": "2026-03-27T14:04:01Z",
+    "period_end": "2026-03-27T15:04:01Z",
     "period_hours": 167.3,
-    "period_start": "2026-03-20T14:06:01Z",
+    "period_start": "2026-03-20T15:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "858489a8b34f25184130df9f1fbe9142d06e136d44b421e7e1bb9e98f74030b2",
-        "size_bytes": 1052028
+        "sha256": "e9249cb785d570b7a0c41f7f91c913242241aa2661b69a538e03e09c067b669f",
+        "size_bytes": 1052116
     },
     "restart_count": 0,
     "samples": 10037,
@@ -227,6 +227,6 @@
         "full": 10034,
         "syncing": 2
     },
-    "total_validations_30d": 699302,
+    "total_validations_30d": 700498,
     "version": "1.0.0"
 }
