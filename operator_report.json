@@ -1,5 +1,5 @@
 {
-    "alert_count": 307,
+    "alert_count": 277,
     "alerts": [
         {
             "category": "LOW_PEERS",
@@ -137,7 +137,7 @@
         "p5_peers_gt_10": {
             "pass": true,
             "rule": "5th percentile peers > 10",
-            "value": 14
+            "value": 15
         },
         "p95_lag_le_4": {
             "pass": true,
@@ -147,12 +147,12 @@
         "zero_collection_gaps": {
             "pass": false,
             "rule": "zero missed report generations (no gaps > 3min in 60s samples)",
-            "value": 3
+            "value": 1
         },
         "zero_full_exits": {
-            "pass": false,
+            "pass": true,
             "rule": "zero exits from server_state=full",
-            "value": 2
+            "value": 0
         },
         "zero_restarts": {
             "pass": true,
@@ -162,16 +162,6 @@
     },
     "collection_gaps": [
         {
-            "from": "2026-03-21T11:18:01Z",
-            "gap_seconds": 300,
-            "to": "2026-03-21T11:23:01Z"
-        },
-        {
-            "from": "2026-03-21T11:45:01Z",
-            "gap_seconds": 1500,
-            "to": "2026-03-21T12:10:01Z"
-        },
-        {
             "from": "2026-03-21T12:11:01Z",
             "gap_seconds": 900,
             "to": "2026-03-21T12:26:01Z"
@@ -179,54 +169,39 @@
     ],
     "collection_rate_pct": 100,
     "disconnect_burst_events": [],
-    "expected_samples": 10038,
-    "full_exits": 2,
-    "full_state_pct": 99.9701,
-    "generated_at": "2026-03-28T11:05:01Z",
+    "expected_samples": 10062,
+    "full_exits": 0,
+    "full_state_pct": 100,
+    "generated_at": "2026-03-28T12:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
-        "max": 6,
+        "max": 4,
         "p50": 2,
         "p95": 3,
         "p99": 4
     },
     "missed_validations_30d": 1156,
-    "non_full_samples": [
-        {
-            "state": "disconnected",
-            "timestamp": "2026-03-21T11:23:01Z"
-        },
-        {
-            "state": "syncing",
-            "timestamp": "2026-03-21T11:24:01Z"
-        },
-        {
-            "state": "syncing",
-            "timestamp": "2026-03-21T11:25:01Z"
-        }
-    ],
+    "non_full_samples": [],
     "peers": {
         "max": 21,
         "median": 21,
-        "min": 0,
-        "p5": 14
+        "min": 1,
+        "p5": 15
     },
-    "period_end": "2026-03-28T11:04:01Z",
-    "period_hours": 167.3,
-    "period_start": "2026-03-21T11:06:01Z",
+    "period_end": "2026-03-28T12:04:01Z",
+    "period_hours": 167.7,
+    "period_start": "2026-03-21T12:10:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "c7f37bb4fa4d30a3ec1f078300fc4433f86cdd619f93ad2cae16a224df0c5c18",
-        "size_bytes": 1055516
+        "sha256": "b3fb73601fc77b586b9de87aca9899c6b497383bb9377f15f9f5a85a78ef00fb",
+        "size_bytes": 1055636
     },
     "restart_count": 0,
-    "samples": 10037,
+    "samples": 10061,
     "server_states": {
-        "disconnected": 1,
-        "full": 10034,
-        "syncing": 2
+        "full": 10061
     },
-    "total_validations_30d": 700513,
+    "total_validations_30d": 700514,
     "version": "1.0.0"
 }
