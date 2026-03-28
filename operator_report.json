@@ -1,5 +1,5 @@
 {
-    "alert_count": 277,
+    "alert_count": 235,
     "alerts": [
         {
             "category": "LOW_PEERS",
@@ -122,7 +122,7 @@
             "timestamp": "2026-03-27T14:12:01Z"
         }
     ],
-    "all_benchmarks_pass": false,
+    "all_benchmarks_pass": true,
     "benchmarks": {
         "median_peers_gt_15": {
             "pass": true,
@@ -137,7 +137,7 @@
         "p5_peers_gt_10": {
             "pass": true,
             "rule": "5th percentile peers > 10",
-            "value": 15
+            "value": 16
         },
         "p95_lag_le_4": {
             "pass": true,
@@ -145,9 +145,9 @@
             "value": 3
         },
         "zero_collection_gaps": {
-            "pass": false,
+            "pass": true,
             "rule": "zero missed report generations (no gaps > 3min in 60s samples)",
-            "value": 1
+            "value": 0
         },
         "zero_full_exits": {
             "pass": true,
@@ -160,19 +160,13 @@
             "value": 0
         }
     },
-    "collection_gaps": [
-        {
-            "from": "2026-03-21T12:11:01Z",
-            "gap_seconds": 900,
-            "to": "2026-03-21T12:26:01Z"
-        }
-    ],
+    "collection_gaps": [],
     "collection_rate_pct": 100,
     "disconnect_burst_events": [],
-    "expected_samples": 10062,
+    "expected_samples": 10080,
     "full_exits": 0,
     "full_state_pct": 100,
-    "generated_at": "2026-03-28T12:05:01Z",
+    "generated_at": "2026-03-28T13:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -187,21 +181,21 @@
         "max": 21,
         "median": 21,
         "min": 1,
-        "p5": 15
+        "p5": 16
     },
-    "period_end": "2026-03-28T12:04:01Z",
-    "period_hours": 167.7,
-    "period_start": "2026-03-21T12:10:01Z",
+    "period_end": "2026-03-28T13:04:01Z",
+    "period_hours": 168,
+    "period_start": "2026-03-21T13:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "b3fb73601fc77b586b9de87aca9899c6b497383bb9377f15f9f5a85a78ef00fb",
-        "size_bytes": 1055636
+        "sha256": "a987eef8baa9f64f1bd8ff140b81a2e5268cbdfba09148c90d404dc8b0768093",
+        "size_bytes": 1055756
     },
     "restart_count": 0,
-    "samples": 10061,
+    "samples": 10079,
     "server_states": {
-        "full": 10061
+        "full": 10079
     },
-    "total_validations_30d": 700514,
+    "total_validations_30d": 700515,
     "version": "1.0.0"
 }
