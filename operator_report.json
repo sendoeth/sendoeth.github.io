@@ -106,7 +106,7 @@
     "expected_samples": 10080,
     "full_exits": 0,
     "full_state_pct": 100,
-    "generated_at": "2026-03-31T06:05:01Z",
+    "generated_at": "2026-03-31T07:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -123,19 +123,19 @@
         "min": 3,
         "p5": 21
     },
-    "period_end": "2026-03-31T06:04:01Z",
+    "period_end": "2026-03-31T07:04:01Z",
     "period_hours": 168,
-    "period_start": "2026-03-24T06:06:01Z",
+    "period_start": "2026-03-24T07:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "c9d818aa2fe15db676e4b5465b92c4564c90251701b381b66df7216b29d720ca",
-        "size_bytes": 1059132
+        "sha256": "bb32c22d1edd15c569ae19fdb8ffbfd664a2a3788eefad632996f7b1f4cd76dd",
+        "size_bytes": 1059224
     },
     "restart_count": 0,
     "samples": 10079,
     "server_states": {
         "full": 10079
     },
-    "total_validations_30d": 700527,
+    "total_validations_30d": 700528,
     "version": "1.0.0"
 }
