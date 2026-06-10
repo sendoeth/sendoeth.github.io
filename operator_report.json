@@ -28,7 +28,7 @@
         "p95_lag_le_4": {
             "pass": true,
             "rule": "p95 validated_ledger.age <= 4s",
-            "value": 2.8
+            "value": 3
         },
         "zero_collection_gaps": {
             "pass": true,
@@ -47,19 +47,19 @@
         }
     },
     "collection_gaps": [],
-    "collection_rate_pct": 83.3,
+    "collection_rate_pct": 98.5,
     "disconnect_burst_events": [],
-    "expected_samples": 6,
+    "expected_samples": 66,
     "full_exits": 1,
     "full_state_pct": 0,
-    "generated_at": "2026-06-10T00:05:01Z",
+    "generated_at": "2026-06-10T01:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
-        "max": 3,
+        "max": 4,
         "p50": 2,
-        "p95": 2.8,
-        "p99": 3
+        "p95": 3,
+        "p99": 3.4
     },
     "missed_validations_30d": 56,
     "non_full_samples": [
@@ -82,6 +82,26 @@
         {
             "state": "proposing",
             "timestamp": "2026-06-10T00:04:01Z"
+        },
+        {
+            "state": "proposing",
+            "timestamp": "2026-06-10T00:05:01Z"
+        },
+        {
+            "state": "proposing",
+            "timestamp": "2026-06-10T00:06:01Z"
+        },
+        {
+            "state": "proposing",
+            "timestamp": "2026-06-10T00:07:01Z"
+        },
+        {
+            "state": "proposing",
+            "timestamp": "2026-06-10T00:08:01Z"
+        },
+        {
+            "state": "proposing",
+            "timestamp": "2026-06-10T00:09:01Z"
         }
     ],
     "peers": {
@@ -90,19 +110,19 @@
         "min": 32,
         "p5": 32
     },
-    "period_end": "2026-06-10T00:04:01Z",
-    "period_hours": 0.1,
+    "period_end": "2026-06-10T01:04:01Z",
+    "period_hours": 1.1,
     "period_start": "2026-06-10T00:01:00Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "73119212d05a6d8e92d8a8ac611768260c3ed157f03daf5568ede397df780c18",
-        "size_bytes": 1212
+        "sha256": "89f5f49b7ffa1b34fd8bd7f15f24a3366c566d3a1097ccbea9eb1be41cb5ebf7",
+        "size_bytes": 6517
     },
     "restart_count": 0,
-    "samples": 5,
+    "samples": 65,
     "server_states": {
-        "proposing": 5
+        "proposing": 65
     },
-    "total_validations_30d": 854750,
+    "total_validations_30d": 854747,
     "version": "1.0.4"
 }
