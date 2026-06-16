@@ -49,10 +49,10 @@
     "collection_gaps": [],
     "collection_rate_pct": 100,
     "disconnect_burst_events": [],
-    "expected_samples": 9966,
+    "expected_samples": 10026,
     "full_exits": 1,
     "full_state_pct": 0,
-    "generated_at": "2026-06-16T22:05:01Z",
+    "generated_at": "2026-06-16T23:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -110,19 +110,19 @@
         "min": 15,
         "p5": 26
     },
-    "period_end": "2026-06-16T22:04:01Z",
-    "period_hours": 166.1,
+    "period_end": "2026-06-16T23:04:01Z",
+    "period_hours": 167.1,
     "period_start": "2026-06-10T00:01:00Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "c7aa9d4b7c2e382f5769e2c30236f0a5f961c66cafca77e17a79621383a57516",
-        "size_bytes": 966475
+        "sha256": "f400b846c4727ef555b381e388a6405108d1c0680273542aea8a0c9eece90477",
+        "size_bytes": 972295
     },
     "restart_count": 0,
-    "samples": 9965,
+    "samples": 10025,
     "server_states": {
-        "proposing": 9965
+        "proposing": 10025
     },
-    "total_validations_30d": 854718,
+    "total_validations_30d": 854719,
     "version": "1.0.4"
 }
