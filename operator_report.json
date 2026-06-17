@@ -1,13 +1,6 @@
 {
-    "alert_count": 1,
-    "alerts": [
-        {
-            "category": "STATE_EXIT",
-            "message": "server_state exited full -> proposing",
-            "severity": "CRITICAL",
-            "timestamp": "2026-06-10T00:01:01Z"
-        }
-    ],
+    "alert_count": 0,
+    "alerts": [],
     "all_benchmarks_pass": false,
     "benchmarks": {
         "median_peers_gt_15": {
@@ -49,10 +42,10 @@
     "collection_gaps": [],
     "collection_rate_pct": 100,
     "disconnect_burst_events": [],
-    "expected_samples": 10026,
+    "expected_samples": 10080,
     "full_exits": 1,
     "full_state_pct": 0,
-    "generated_at": "2026-06-16T23:05:01Z",
+    "generated_at": "2026-06-17T00:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -63,30 +56,6 @@
     },
     "missed_validations_30d": 56,
     "non_full_samples": [
-        {
-            "state": "proposing",
-            "timestamp": "2026-06-10T00:01:00Z"
-        },
-        {
-            "state": "proposing",
-            "timestamp": "2026-06-10T00:01:01Z"
-        },
-        {
-            "state": "proposing",
-            "timestamp": "2026-06-10T00:02:01Z"
-        },
-        {
-            "state": "proposing",
-            "timestamp": "2026-06-10T00:03:01Z"
-        },
-        {
-            "state": "proposing",
-            "timestamp": "2026-06-10T00:04:01Z"
-        },
-        {
-            "state": "proposing",
-            "timestamp": "2026-06-10T00:05:01Z"
-        },
         {
             "state": "proposing",
             "timestamp": "2026-06-10T00:06:01Z"
@@ -102,6 +71,30 @@
         {
             "state": "proposing",
             "timestamp": "2026-06-10T00:09:01Z"
+        },
+        {
+            "state": "proposing",
+            "timestamp": "2026-06-10T00:10:01Z"
+        },
+        {
+            "state": "proposing",
+            "timestamp": "2026-06-10T00:11:01Z"
+        },
+        {
+            "state": "proposing",
+            "timestamp": "2026-06-10T00:12:01Z"
+        },
+        {
+            "state": "proposing",
+            "timestamp": "2026-06-10T00:13:01Z"
+        },
+        {
+            "state": "proposing",
+            "timestamp": "2026-06-10T00:14:01Z"
+        },
+        {
+            "state": "proposing",
+            "timestamp": "2026-06-10T00:15:01Z"
         }
     ],
     "peers": {
@@ -110,19 +103,19 @@
         "min": 15,
         "p5": 26
     },
-    "period_end": "2026-06-16T23:04:01Z",
-    "period_hours": 167.1,
-    "period_start": "2026-06-10T00:01:00Z",
+    "period_end": "2026-06-17T00:04:01Z",
+    "period_hours": 168,
+    "period_start": "2026-06-10T00:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "f400b846c4727ef555b381e388a6405108d1c0680273542aea8a0c9eece90477",
-        "size_bytes": 972295
+        "sha256": "32d9d125f3f0119c14302b32dfa66343d76cab63998d3e3d4848e9ce0351696a",
+        "size_bytes": 978115
     },
     "restart_count": 0,
-    "samples": 10025,
+    "samples": 10079,
     "server_states": {
-        "proposing": 10025
+        "proposing": 10079
     },
-    "total_validations_30d": 854719,
+    "total_validations_30d": 854721,
     "version": "1.0.4"
 }
