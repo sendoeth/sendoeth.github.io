@@ -1,18 +1,6 @@
 {
-    "alert_count": 44,
+    "alert_count": 46,
     "alerts": [
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=2 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-06-17T04:01:26Z"
-        },
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-06-17T04:02:02Z"
-        },
         {
             "category": "LOW_PEERS",
             "message": "peers=7 (floor: 10)",
@@ -120,6 +108,18 @@
             "message": "full state transitions increased: 16 -> 17 (implies exit+reentry)",
             "severity": "WARNING",
             "timestamp": "2026-06-22T20:37:01Z"
+        },
+        {
+            "category": "FULL_REENTRY",
+            "message": "full state transitions increased: 17 -> 18 (implies exit+reentry)",
+            "severity": "WARNING",
+            "timestamp": "2026-06-22T21:51:02Z"
+        },
+        {
+            "category": "FULL_REENTRY",
+            "message": "full state transitions increased: 18 -> 20 (implies exit+reentry)",
+            "severity": "WARNING",
+            "timestamp": "2026-06-22T21:53:02Z"
         }
     ],
     "all_benchmarks_pass": false,
@@ -152,7 +152,7 @@
         "zero_full_exits": {
             "pass": false,
             "rule": "zero exits from server_state=full",
-            "value": 16
+            "value": 19
         },
         "zero_restarts": {
             "pass": true,
@@ -164,9 +164,9 @@
     "collection_rate_pct": 100,
     "disconnect_burst_events": [],
     "expected_samples": 10080,
-    "full_exits": 16,
+    "full_exits": 19,
     "full_state_pct": 0,
-    "generated_at": "2026-06-22T21:05:01Z",
+    "generated_at": "2026-06-22T22:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -179,43 +179,43 @@
     "non_full_samples": [
         {
             "state": "proposing",
-            "timestamp": "2026-06-15T21:06:01Z"
+            "timestamp": "2026-06-15T22:06:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-06-15T21:07:01Z"
+            "timestamp": "2026-06-15T22:07:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-06-15T21:08:01Z"
+            "timestamp": "2026-06-15T22:08:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-06-15T21:09:01Z"
+            "timestamp": "2026-06-15T22:09:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-06-15T21:10:01Z"
+            "timestamp": "2026-06-15T22:10:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-06-15T21:11:01Z"
+            "timestamp": "2026-06-15T22:11:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-06-15T21:12:01Z"
+            "timestamp": "2026-06-15T22:12:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-06-15T21:13:01Z"
+            "timestamp": "2026-06-15T22:13:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-06-15T21:14:01Z"
+            "timestamp": "2026-06-15T22:14:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-06-15T21:15:01Z"
+            "timestamp": "2026-06-15T22:15:02Z"
         }
     ],
     "peers": {
@@ -224,19 +224,19 @@
         "min": 1,
         "p5": 21
     },
-    "period_end": "2026-06-22T21:04:01Z",
+    "period_end": "2026-06-22T22:04:01Z",
     "period_hours": 168,
-    "period_start": "2026-06-15T21:06:01Z",
+    "period_start": "2026-06-15T22:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "63175ef28f6a867cb1900943f00bb3276f9e8f43f96e7fd6f583a1d9b002f1d1",
-        "size_bytes": 1112352
+        "sha256": "78c7a614a392a432cc4693ef122683c6d4a343211430a24385bf7ed98b9071c1",
+        "size_bytes": 1112633
     },
     "restart_count": 0,
     "samples": 10079,
     "server_states": {
         "proposing": 10079
     },
-    "total_validations_30d": 853500,
+    "total_validations_30d": 853499,
     "version": "1.0.4"
 }
