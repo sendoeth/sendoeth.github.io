@@ -1,125 +1,125 @@
 {
-    "alert_count": 1491,
+    "alert_count": 1551,
     "alerts": [
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:45:02Z"
+            "timestamp": "2026-07-25T10:45:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:46:02Z"
+            "timestamp": "2026-07-25T10:46:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:47:03Z"
+            "timestamp": "2026-07-25T10:47:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:48:02Z"
+            "timestamp": "2026-07-25T10:48:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:49:02Z"
+            "timestamp": "2026-07-25T10:49:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:50:02Z"
+            "timestamp": "2026-07-25T10:50:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:51:02Z"
+            "timestamp": "2026-07-25T10:51:03Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:52:02Z"
+            "timestamp": "2026-07-25T10:52:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:53:03Z"
+            "timestamp": "2026-07-25T10:53:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:54:02Z"
+            "timestamp": "2026-07-25T10:54:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:55:02Z"
+            "timestamp": "2026-07-25T10:55:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:56:02Z"
+            "timestamp": "2026-07-25T10:56:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:57:02Z"
+            "timestamp": "2026-07-25T10:57:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:58:02Z"
+            "timestamp": "2026-07-25T10:58:03Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T09:59:03Z"
+            "timestamp": "2026-07-25T10:59:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T10:00:02Z"
+            "timestamp": "2026-07-25T11:00:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T10:01:03Z"
+            "timestamp": "2026-07-25T11:01:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T10:02:02Z"
+            "timestamp": "2026-07-25T11:02:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T10:03:02Z"
+            "timestamp": "2026-07-25T11:03:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=9 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T10:04:03Z"
+            "timestamp": "2026-07-25T11:04:02Z"
         }
     ],
     "all_benchmarks_pass": false,
@@ -172,7 +172,7 @@
     "expected_samples": 10080,
     "full_exits": 56,
     "full_state_pct": 0,
-    "generated_at": "2026-07-25T10:05:01Z",
+    "generated_at": "2026-07-25T11:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -185,43 +185,43 @@
     "non_full_samples": [
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T10:06:01Z"
+            "timestamp": "2026-07-18T11:06:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T10:07:01Z"
+            "timestamp": "2026-07-18T11:07:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T10:08:01Z"
+            "timestamp": "2026-07-18T11:08:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T10:09:01Z"
+            "timestamp": "2026-07-18T11:09:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T10:10:01Z"
+            "timestamp": "2026-07-18T11:10:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T10:11:01Z"
+            "timestamp": "2026-07-18T11:11:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T10:12:01Z"
+            "timestamp": "2026-07-18T11:12:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T10:13:01Z"
+            "timestamp": "2026-07-18T11:13:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T10:14:01Z"
+            "timestamp": "2026-07-18T11:14:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T10:15:01Z"
+            "timestamp": "2026-07-18T11:15:01Z"
         }
     ],
     "peers": {
@@ -230,13 +230,13 @@
         "min": 0,
         "p5": 5
     },
-    "period_end": "2026-07-25T10:04:01Z",
+    "period_end": "2026-07-25T11:04:01Z",
     "period_hours": 168,
-    "period_start": "2026-07-18T10:06:01Z",
+    "period_start": "2026-07-18T11:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "484178a6e6a86e212c94fc8848bd5e16e3a47076e280622f4bf1160e1e6cd035",
-        "size_bytes": 1139095
+        "sha256": "0b7f00ada336e3d57e69364afeebba1c32bd0168c9f949fd7c2de34771f422d2",
+        "size_bytes": 1139037
     },
     "restart_count": 0,
     "samples": 10079,
@@ -244,6 +244,6 @@
         "disconnected": 1,
         "proposing": 10078
     },
-    "total_validations_30d": 853476,
+    "total_validations_30d": 853478,
     "version": "1.0.4"
 }
