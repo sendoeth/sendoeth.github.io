@@ -1,125 +1,125 @@
 {
-    "alert_count": 1071,
+    "alert_count": 1131,
     "alerts": [
         {
             "category": "LOW_PEERS",
-            "message": "peers=7 (floor: 10)",
+            "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T02:45:03Z"
+            "timestamp": "2026-07-25T03:45:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T02:46:02Z"
-        },
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=8 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-07-25T02:47:02Z"
+            "timestamp": "2026-07-25T03:46:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=7 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T02:48:02Z"
+            "timestamp": "2026-07-25T03:47:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=7 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T02:49:03Z"
+            "timestamp": "2026-07-25T03:48:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=7 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T02:50:02Z"
-        },
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=8 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-07-25T02:51:02Z"
-        },
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=8 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-07-25T02:52:01Z"
+            "timestamp": "2026-07-25T03:49:03Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=7 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T02:53:01Z"
+            "timestamp": "2026-07-25T03:50:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T02:54:02Z"
+            "timestamp": "2026-07-25T03:51:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T02:55:02Z"
+            "timestamp": "2026-07-25T03:52:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T02:56:02Z"
+            "timestamp": "2026-07-25T03:53:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T02:57:02Z"
+            "timestamp": "2026-07-25T03:54:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T02:58:02Z"
+            "timestamp": "2026-07-25T03:55:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T02:59:02Z"
+            "timestamp": "2026-07-25T03:56:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T03:00:02Z"
+            "timestamp": "2026-07-25T03:57:03Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T03:01:03Z"
+            "timestamp": "2026-07-25T03:58:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T03:02:02Z"
+            "timestamp": "2026-07-25T03:59:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T03:03:02Z"
+            "timestamp": "2026-07-25T04:00:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T03:04:02Z"
+            "timestamp": "2026-07-25T04:01:02Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=8 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-07-25T04:02:02Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=8 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-07-25T04:03:02Z"
+        },
+        {
+            "category": "LOW_PEERS",
+            "message": "peers=8 (floor: 10)",
+            "severity": "WARNING",
+            "timestamp": "2026-07-25T04:04:02Z"
         }
     ],
     "all_benchmarks_pass": false,
@@ -172,7 +172,7 @@
     "expected_samples": 10080,
     "full_exits": 56,
     "full_state_pct": 0,
-    "generated_at": "2026-07-25T03:05:01Z",
+    "generated_at": "2026-07-25T04:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -185,43 +185,43 @@
     "non_full_samples": [
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T03:06:01Z"
+            "timestamp": "2026-07-18T04:06:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T03:07:01Z"
+            "timestamp": "2026-07-18T04:07:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T03:08:01Z"
+            "timestamp": "2026-07-18T04:08:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T03:09:01Z"
+            "timestamp": "2026-07-18T04:09:02Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T03:10:01Z"
+            "timestamp": "2026-07-18T04:10:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T03:11:01Z"
+            "timestamp": "2026-07-18T04:11:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T03:12:01Z"
+            "timestamp": "2026-07-18T04:12:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T03:13:01Z"
+            "timestamp": "2026-07-18T04:13:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T03:14:01Z"
+            "timestamp": "2026-07-18T04:14:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T03:15:01Z"
+            "timestamp": "2026-07-18T04:15:01Z"
         }
     ],
     "peers": {
@@ -230,12 +230,12 @@
         "min": 0,
         "p5": 5
     },
-    "period_end": "2026-07-25T03:04:01Z",
+    "period_end": "2026-07-25T04:04:01Z",
     "period_hours": 168,
-    "period_start": "2026-07-18T03:06:01Z",
+    "period_start": "2026-07-18T04:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "05f7c5fc70c8fd5d3462a1480dff254e6d95236f12492e0cae197ed40eed1449",
+        "sha256": "897087824bac1a18bbd6bbfd30f385a67adfe167869ce5e5bf24f43d1cb0b48d",
         "size_bytes": 1139095
     },
     "restart_count": 0,
@@ -244,6 +244,6 @@
         "disconnected": 1,
         "proposing": 10078
     },
-    "total_validations_30d": 853472,
+    "total_validations_30d": 853474,
     "version": "1.0.4"
 }
