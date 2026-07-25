@@ -1,125 +1,125 @@
 {
-    "alert_count": 951,
+    "alert_count": 1011,
     "alerts": [
         {
             "category": "LOW_PEERS",
             "message": "peers=5 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:45:02Z"
+            "timestamp": "2026-07-25T01:45:03Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=5 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:46:02Z"
+            "timestamp": "2026-07-25T01:46:05Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=5 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:47:02Z"
+            "timestamp": "2026-07-25T01:47:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=5 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:48:02Z"
+            "timestamp": "2026-07-25T01:48:04Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=5 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:49:02Z"
+            "timestamp": "2026-07-25T01:49:07Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=5 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:50:02Z"
+            "timestamp": "2026-07-25T01:50:02Z"
         },
         {
             "category": "LOW_PEERS",
             "message": "peers=5 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:51:02Z"
+            "timestamp": "2026-07-25T01:51:04Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=6 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:52:02Z"
+            "timestamp": "2026-07-25T01:52:03Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=7 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:53:02Z"
+            "timestamp": "2026-07-25T01:53:02Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=7 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:54:02Z"
+            "timestamp": "2026-07-25T01:54:02Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:55:02Z"
+            "timestamp": "2026-07-25T01:55:02Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:56:02Z"
+            "timestamp": "2026-07-25T01:56:02Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:57:02Z"
+            "timestamp": "2026-07-25T01:57:04Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:58:03Z"
+            "timestamp": "2026-07-25T01:58:03Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T00:59:02Z"
+            "timestamp": "2026-07-25T01:59:02Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T01:00:04Z"
+            "timestamp": "2026-07-25T02:00:04Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T01:01:02Z"
+            "timestamp": "2026-07-25T02:01:11Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T01:02:03Z"
+            "timestamp": "2026-07-25T02:02:02Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T01:03:02Z"
+            "timestamp": "2026-07-25T02:03:02Z"
         },
         {
             "category": "LOW_PEERS",
-            "message": "peers=5 (floor: 10)",
+            "message": "peers=8 (floor: 10)",
             "severity": "WARNING",
-            "timestamp": "2026-07-25T01:04:03Z"
+            "timestamp": "2026-07-25T02:04:03Z"
         }
     ],
     "all_benchmarks_pass": false,
@@ -172,7 +172,7 @@
     "expected_samples": 10080,
     "full_exits": 56,
     "full_state_pct": 0,
-    "generated_at": "2026-07-25T01:05:01Z",
+    "generated_at": "2026-07-25T02:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -185,43 +185,43 @@
     "non_full_samples": [
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T01:05:02Z"
+            "timestamp": "2026-07-18T02:06:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T01:06:02Z"
+            "timestamp": "2026-07-18T02:07:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T01:07:01Z"
+            "timestamp": "2026-07-18T02:08:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T01:08:01Z"
+            "timestamp": "2026-07-18T02:09:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T01:09:01Z"
+            "timestamp": "2026-07-18T02:10:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T01:10:01Z"
+            "timestamp": "2026-07-18T02:11:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T01:11:01Z"
+            "timestamp": "2026-07-18T02:12:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T01:12:01Z"
+            "timestamp": "2026-07-18T02:13:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T01:13:01Z"
+            "timestamp": "2026-07-18T02:14:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-18T01:14:01Z"
+            "timestamp": "2026-07-18T02:15:01Z"
         }
     ],
     "peers": {
@@ -230,20 +230,20 @@
         "min": 0,
         "p5": 5
     },
-    "period_end": "2026-07-25T01:04:01Z",
+    "period_end": "2026-07-25T02:04:01Z",
     "period_hours": 168,
-    "period_start": "2026-07-18T01:05:02Z",
+    "period_start": "2026-07-18T02:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "bd8fe188c0ff2fe23b21297785677c819818a74b54494f3b12ec568ab032a4cf",
+        "sha256": "ef7afa104ff0fe4083371a43af3054cf7c1a6db198534f499696cebb8d9c93e6",
         "size_bytes": 1139095
     },
     "restart_count": 0,
-    "samples": 10080,
+    "samples": 10079,
     "server_states": {
         "disconnected": 1,
-        "proposing": 10079
+        "proposing": 10078
     },
-    "total_validations_30d": 853471,
+    "total_validations_30d": 853474,
     "version": "1.0.4"
 }
