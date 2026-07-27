@@ -172,7 +172,7 @@
     "expected_samples": 10080,
     "full_exits": 56,
     "full_state_pct": 0,
-    "generated_at": "2026-07-27T08:05:01Z",
+    "generated_at": "2026-07-27T09:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -181,47 +181,47 @@
         "p95": 3,
         "p99": 4
     },
-    "missed_validations_30d": 92,
+    "missed_validations_30d": 93,
     "non_full_samples": [
         {
             "state": "proposing",
-            "timestamp": "2026-07-20T08:06:01Z"
+            "timestamp": "2026-07-20T09:06:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-20T08:07:01Z"
+            "timestamp": "2026-07-20T09:07:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-20T08:08:01Z"
+            "timestamp": "2026-07-20T09:08:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-20T08:09:01Z"
+            "timestamp": "2026-07-20T09:09:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-20T08:10:01Z"
+            "timestamp": "2026-07-20T09:10:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-20T08:11:01Z"
+            "timestamp": "2026-07-20T09:11:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-20T08:12:01Z"
+            "timestamp": "2026-07-20T09:12:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-20T08:13:01Z"
+            "timestamp": "2026-07-20T09:13:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-20T08:14:01Z"
+            "timestamp": "2026-07-20T09:14:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-20T08:15:01Z"
+            "timestamp": "2026-07-20T09:15:01Z"
         }
     ],
     "peers": {
@@ -230,13 +230,13 @@
         "min": 0,
         "p5": 5
     },
-    "period_end": "2026-07-27T08:04:01Z",
+    "period_end": "2026-07-27T09:04:01Z",
     "period_hours": 168,
-    "period_start": "2026-07-20T08:06:01Z",
+    "period_start": "2026-07-20T09:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "a1d3a7fb3ecb7c7cc3d49f51bc71c78c4deba65a14145931f864ac7ae3717a89",
-        "size_bytes": 1137860
+        "sha256": "bc4f53dc0debd9bd0b16bdca0b920da8c6b4a3a85712e62702193e3fabda623b",
+        "size_bytes": 1137800
     },
     "restart_count": 0,
     "samples": 10079,
@@ -244,6 +244,6 @@
         "disconnected": 1,
         "proposing": 10078
     },
-    "total_validations_30d": 852291,
+    "total_validations_30d": 852292,
     "version": "1.0.4"
 }
