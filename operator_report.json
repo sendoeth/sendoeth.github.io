@@ -172,7 +172,7 @@
     "expected_samples": 10080,
     "full_exits": 56,
     "full_state_pct": 0,
-    "generated_at": "2026-07-29T17:05:01Z",
+    "generated_at": "2026-07-29T18:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -185,43 +185,43 @@
     "non_full_samples": [
         {
             "state": "proposing",
-            "timestamp": "2026-07-22T17:06:01Z"
+            "timestamp": "2026-07-22T18:06:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-22T17:07:01Z"
+            "timestamp": "2026-07-22T18:07:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-22T17:08:01Z"
+            "timestamp": "2026-07-22T18:08:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-22T17:09:01Z"
+            "timestamp": "2026-07-22T18:09:02Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-22T17:10:01Z"
+            "timestamp": "2026-07-22T18:10:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-22T17:11:01Z"
+            "timestamp": "2026-07-22T18:11:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-22T17:12:01Z"
+            "timestamp": "2026-07-22T18:12:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-22T17:13:01Z"
+            "timestamp": "2026-07-22T18:13:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-22T17:14:01Z"
+            "timestamp": "2026-07-22T18:14:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-22T17:15:01Z"
+            "timestamp": "2026-07-22T18:15:01Z"
         }
     ],
     "peers": {
@@ -230,13 +230,13 @@
         "min": 0,
         "p5": 5
     },
-    "period_end": "2026-07-29T17:04:01Z",
+    "period_end": "2026-07-29T18:04:01Z",
     "period_hours": 168,
-    "period_start": "2026-07-22T17:06:01Z",
+    "period_start": "2026-07-22T18:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "cbbdb467974f5b74c4b6216d7f4657b5948d94edd31d548f81b4ae429b510878",
-        "size_bytes": 1134440
+        "sha256": "8ef20f87779334a09ea0fe6d475a69f0a457c61c6ec21528ec8ca6e4da28c04b",
+        "size_bytes": 1134380
     },
     "restart_count": 0,
     "samples": 10079,
@@ -244,6 +244,6 @@
         "disconnected": 1,
         "proposing": 10078
     },
-    "total_validations_30d": 852293,
+    "total_validations_30d": 852294,
     "version": "1.0.4"
 }
