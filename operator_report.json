@@ -1,5 +1,5 @@
 {
-    "alert_count": 1629,
+    "alert_count": 1578,
     "alerts": [
         {
             "category": "LOW_PEERS",
@@ -130,9 +130,9 @@
             "value": 18
         },
         "no_disconnect_burst_lag": {
-            "pass": false,
+            "pass": true,
             "rule": "no disconnect burst (>20) correlated with ledger_age > 4s",
-            "value": 1
+            "value": 0
         },
         "p5_peers_gt_10": {
             "pass": false,
@@ -162,21 +162,15 @@
     },
     "collection_gaps": [],
     "collection_rate_pct": 100,
-    "disconnect_burst_events": [
-        {
-            "disconnect_delta": 35,
-            "ledger_age": 120,
-            "timestamp": "2026-07-24T09:21:01Z"
-        }
-    ],
+    "disconnect_burst_events": [],
     "expected_samples": 10080,
     "full_exits": 56,
     "full_state_pct": 0,
-    "generated_at": "2026-07-31T09:05:01Z",
+    "generated_at": "2026-07-31T10:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
-        "max": 180,
+        "max": 4,
         "p50": 2,
         "p95": 3,
         "p99": 4
@@ -185,65 +179,64 @@
     "non_full_samples": [
         {
             "state": "proposing",
-            "timestamp": "2026-07-24T09:06:01Z"
+            "timestamp": "2026-07-24T10:06:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-24T09:07:01Z"
+            "timestamp": "2026-07-24T10:07:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-24T09:08:01Z"
+            "timestamp": "2026-07-24T10:08:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-24T09:09:01Z"
+            "timestamp": "2026-07-24T10:09:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-24T09:10:01Z"
+            "timestamp": "2026-07-24T10:10:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-24T09:11:01Z"
+            "timestamp": "2026-07-24T10:11:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-24T09:12:01Z"
+            "timestamp": "2026-07-24T10:12:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-24T09:13:01Z"
+            "timestamp": "2026-07-24T10:13:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-24T09:14:01Z"
+            "timestamp": "2026-07-24T10:14:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-07-24T09:15:01Z"
+            "timestamp": "2026-07-24T10:15:01Z"
         }
     ],
     "peers": {
-        "max": 35,
+        "max": 24,
         "median": 18,
-        "min": 0,
+        "min": 3,
         "p5": 5
     },
-    "period_end": "2026-07-31T09:04:02Z",
+    "period_end": "2026-07-31T10:04:01Z",
     "period_hours": 168,
-    "period_start": "2026-07-24T09:06:01Z",
+    "period_start": "2026-07-24T10:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "b1a181cde39be07fd8df929dc44e9e71f08b089504e54d35e679fec94a24543c",
+        "sha256": "f3ccf58c10fb738a274f1a9401d205d41633b2d7ce4b05e080d4156cc1341b75",
         "size_bytes": 1132473
     },
     "restart_count": 0,
     "samples": 10079,
     "server_states": {
-        "disconnected": 1,
-        "proposing": 10078
+        "proposing": 10079
     },
-    "total_validations_30d": 852280,
+    "total_validations_30d": 852283,
     "version": "1.0.4"
 }
