@@ -35,7 +35,7 @@
         "p5_peers_gt_10": {
             "pass": true,
             "rule": "5th percentile peers > 10",
-            "value": 26
+            "value": 25
         },
         "p95_lag_le_4": {
             "pass": true,
@@ -64,7 +64,7 @@
     "expected_samples": 10080,
     "full_exits": 0,
     "full_state_pct": 0,
-    "generated_at": "2026-10-15T17:05:01Z",
+    "generated_at": "2026-10-15T18:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -77,58 +77,58 @@
     "non_full_samples": [
         {
             "state": "proposing",
-            "timestamp": "2026-10-08T17:06:01Z"
+            "timestamp": "2026-10-08T18:06:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-08T17:07:01Z"
+            "timestamp": "2026-10-08T18:07:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-08T17:08:01Z"
+            "timestamp": "2026-10-08T18:08:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-08T17:09:01Z"
+            "timestamp": "2026-10-08T18:09:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-08T17:10:01Z"
+            "timestamp": "2026-10-08T18:10:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-08T17:11:01Z"
+            "timestamp": "2026-10-08T18:11:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-08T17:12:01Z"
+            "timestamp": "2026-10-08T18:12:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-08T17:13:01Z"
+            "timestamp": "2026-10-08T18:13:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-08T17:14:01Z"
+            "timestamp": "2026-10-08T18:14:02Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-08T17:15:01Z"
+            "timestamp": "2026-10-08T18:15:01Z"
         }
     ],
     "peers": {
         "max": 35,
         "median": 28,
         "min": 7,
-        "p5": 26
+        "p5": 25
     },
-    "period_end": "2026-10-15T17:04:01Z",
+    "period_end": "2026-10-15T18:04:01Z",
     "period_hours": 168,
-    "period_start": "2026-10-08T17:06:01Z",
+    "period_start": "2026-10-08T18:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "d77b924fa4494e4a58c4ef658f35b46f2dfe73813b7a63952ee6ddd2127a35ea",
-        "size_bytes": 1092389
+        "sha256": "fa04dc6f96f28c9ee84087098d9deacbe473b7c9d6e9d8a7671e109f1d5c53ee",
+        "size_bytes": 1092329
     },
     "restart_count": 0,
     "samples": 10079,
