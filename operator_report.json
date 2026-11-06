@@ -1,32 +1,7 @@
 {
-    "alert_count": 4,
-    "alerts": [
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=4 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-10-30T17:12:02Z"
-        },
-        {
-            "category": "CONTAINER_RESTART",
-            "message": "restart count: 0 -> 1",
-            "severity": "WARNING",
-            "timestamp": "2026-10-30T17:12:02Z"
-        },
-        {
-            "category": "FULL_REENTRY",
-            "message": "full state transitions increased: 0 -> 1 (implies exit+reentry)",
-            "severity": "WARNING",
-            "timestamp": "2026-10-30T17:13:02Z"
-        },
-        {
-            "category": "LOW_PEERS",
-            "message": "peers=4 (floor: 10)",
-            "severity": "WARNING",
-            "timestamp": "2026-10-30T17:13:02Z"
-        }
-    ],
-    "all_benchmarks_pass": false,
+    "alert_count": 0,
+    "alerts": [],
+    "all_benchmarks_pass": true,
     "benchmarks": {
         "median_peers_gt_15": {
             "pass": true,
@@ -59,9 +34,9 @@
             "value": 0
         },
         "zero_restarts": {
-            "pass": false,
+            "pass": true,
             "rule": "zero unexpected restarts in 7d",
-            "value": 1
+            "value": 0
         }
     },
     "collection_gaps": [],
@@ -70,7 +45,7 @@
     "expected_samples": 10080,
     "full_exits": 0,
     "full_state_pct": 0,
-    "generated_at": "2026-11-06T17:05:01Z",
+    "generated_at": "2026-11-06T18:05:01Z",
     "image_digest": "sha256:8ae343faf4859798a870c65e90e86b4f9f5414b442463b8a23d951c86de9dcb6",
     "image_pinned": true,
     "ledger_lag": {
@@ -83,64 +58,63 @@
     "non_full_samples": [
         {
             "state": "proposing",
-            "timestamp": "2026-10-30T17:06:01Z"
+            "timestamp": "2026-10-30T18:06:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-30T17:07:01Z"
+            "timestamp": "2026-10-30T18:07:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-30T17:08:01Z"
+            "timestamp": "2026-10-30T18:08:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-30T17:09:01Z"
+            "timestamp": "2026-10-30T18:09:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-30T17:10:01Z"
+            "timestamp": "2026-10-30T18:10:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-30T17:11:02Z"
-        },
-        {
-            "state": "connected",
-            "timestamp": "2026-10-30T17:12:02Z"
+            "timestamp": "2026-10-30T18:11:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-30T17:13:01Z"
+            "timestamp": "2026-10-30T18:12:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-30T17:14:01Z"
+            "timestamp": "2026-10-30T18:13:01Z"
         },
         {
             "state": "proposing",
-            "timestamp": "2026-10-30T17:15:01Z"
+            "timestamp": "2026-10-30T18:14:01Z"
+        },
+        {
+            "state": "proposing",
+            "timestamp": "2026-10-30T18:15:01Z"
         }
     ],
     "peers": {
         "max": 34,
         "median": 28,
-        "min": 4,
+        "min": 14,
         "p5": 18
     },
-    "period_end": "2026-11-06T17:04:01Z",
+    "period_end": "2026-11-06T18:04:01Z",
     "period_hours": 168,
-    "period_start": "2026-10-30T17:06:01Z",
+    "period_start": "2026-10-30T18:06:01Z",
     "raw_csv_attestation": {
         "path": "/opt/postfiatd/metrics/validator_metrics.csv",
-        "sha256": "bcb66c056087ef705ac1edda0d1e62fda3a79dc2cb9f5446fca73b5b8683a61b",
-        "size_bytes": 1084728
+        "sha256": "ac9013f4b53a4ae3c3e1d7d08c7fe5596ec420a1234c25ab345c2397e19bccf4",
+        "size_bytes": 1084668
     },
-    "restart_count": 1,
+    "restart_count": 0,
     "samples": 10079,
     "server_states": {
-        "connected": 1,
-        "proposing": 10078
+        "proposing": 10079
     },
     "total_validations_30d": 856999,
     "version": "1.0.9"
